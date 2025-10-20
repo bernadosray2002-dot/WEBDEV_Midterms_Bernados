@@ -1,1 +1,1 @@
-Superbook, not automatic eradication of brainrot stuff, but clickable siya through three dot lines
+My platform: Superbook T.T, this platform offers INSTANT ERADICATION DISCOMBULATION DECIMATION AMOTIZATION on posts that has brainrot content 
