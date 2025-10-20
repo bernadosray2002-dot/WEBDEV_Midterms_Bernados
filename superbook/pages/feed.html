@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Feed - Superbook</title>
+<link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+<header>
+  <h2>Superbook Feed</h2>
+  <nav>
+    <a href="profile.html">Profile</a>
+    <button id="logoutBtn">Logout</button>
+  </nav>
+</header>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <button id="friendsBtn">🧑 Friends</button>
+    <button id="messagesBtn">💬 Messages</button>
+  </aside>
+
+  <main class="feed-area" id="feedArea">
+    <h3>Latest Posts</h3>
+    <div id="feed"></div>
+  </main>
+</div>
+
+<!-- Friends popup -->
+<div id="friendsPopup" class="popup hidden">
+  <div class="popup-inner">
+    <button class="closePopup" data-target="friendsPopup">✖</button>
+    <h3>Friends</h3>
+    <ul id="friendsList" class="list"></ul>
+  </div>
+</div>
+
+<!-- Messages popup -->
+<div id="messagesPopup" class="popup hidden">
+  <div class="popup-inner">
+    <button class="closePopup" data-target="messagesPopup">✖</button>
+    <h3>Messages</h3>
+    <div class="messages-container">
+      <ul id="chatsList" class="list chats-list"></ul>
+      <div id="chatWindow" class="chat-window hidden">
+        <h4 id="chatWith"></h4>
+        <div id="chatMessages" class="chat-messages"></div>
+        <textarea id="replyInput" placeholder="Type a reply..."></textarea>
+        <button id="sendReply">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../src/js/main.js"></script>
+<script src="../src/js/feed_v3.js"></script>
+</body>
+</html>
